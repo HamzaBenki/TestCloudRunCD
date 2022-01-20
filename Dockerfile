@@ -2,8 +2,8 @@
 # write some code to build your image
 FROM python:3.8-buster
 
-RUN pip install -U pip
-RUN pip install fastapi uvicorn
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
 COPY api.py api.py
 
