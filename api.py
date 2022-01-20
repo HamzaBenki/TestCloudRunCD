@@ -1,10 +1,5 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import pandas as pd
-from datetime import datetime
-import pytz
-import joblib
-import numpy as np
 
 app = FastAPI()
 
